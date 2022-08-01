@@ -12,7 +12,7 @@ class NewsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_news)
-
+        // MY API : 959969ab45834a609b1cbbb8ea8e9e45
         bottomNavigationView.setupWithNavController(newsNavHostFragment.findNavController())
     }
 }
